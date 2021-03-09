@@ -5,12 +5,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title> Cesar Campos </title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./assets/css/reset.css">
-        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     </head>
 
     <body>
-        <header>
+        <header >
             <h1>Cesar Campos</h1>
             <nav>
                 <ul>
@@ -22,39 +22,99 @@
             </nav>
         </header>    
 
-        <main>    
+        <main class="content">    
             <figure class="coding">
-            <p class="subtitle"> " Without a struggle, there can be no progress. " </p>
+                <p class="subtitle">"Without a struggle, there can be no progress."</p>
             </figure>
 
-            <!--<aside class="sideBorder">
-                 <h2 >About me</h2>
-                <h2>Work</h2>
-                <h2>Contact Me</h2>
-            </aside>-->
+            <!-- About section -->
+            <section id="about-me" class="about">
+            <div class="flex-row">
+            <h3 class="sidebordernames">About Me</h3> 
+            </div>
+            <div class="step-info">
+                <div class="vl-border1">
+            </div>
+                <div class="step-text">
+                    <p>
+                        Sunt amet occaecat nostrud et duis ex minim do. Sunt anim aliquip ea et do sit occaecat. In occaecat exercitation culpa excepteur aliquip est quis Lorem incididunt tempor et laboris. Ut magna laborum commodo eu deserunt do dolor exercitation.</br>
+                    </p>
+                    <p>
+                        Et aliquip ea amet sit aliquip adipisicing occaecat nulla incididunt non dolor culpa. Nostrud ad non fugiat deserunt culpa ad culpa adipisicing cillum. Cupidatat eiusmod ipsum et aute anim nisi do sint eu ipsum tempor. Sunt velit occaecat do nulla aute elit. Deserunt aliqua ea magna sit nisi. Excepteur deserunt ut aliqua excepteur eiusmod.</br>
+                    </p>
+                    <p>
+                        Laboris aliquip commodo labore pariatur nulla deserunt qui dolore ad reprehenderit consectetur. Consectetur eiusmod dolore labore aliquip nulla elit. Nulla reprehenderit et sunt fugiat velit exercitation commodo. Exercitation commodo laborum veniam in cupidatat labore. Tempor occaecat exercitation reprehenderit nostrud. Exercitation deserunt exercitation dolor irure ex anim sit sunt nisi ullamco duis veniam qui anim.</br>
+                    </p>
+                </div>
+        </section>
 
-            <section id="about_me"> 
-                <h3 class="float-left" >About me</h3>
-                <p>Qui irure non id id do consequat nulla sit. Veniam aliquip magna nulla deserunt ea. Enim adipisicing cillum laborum do non duis voluptate tempor nulla id.
+            <section id="work" class="about">
+            <div class="flex-row ">
+            <h2 class="sidebordernames">Work </h2> 
+            </div>
+            <div class="step-info">
+                <div class="vl-border2">
+                </div>
+                <!--CSS grid of images-->
+                <div class="container">
+                <div class="gallery">    
 
-                Reprehenderit elit labore non Lorem. Incididunt sint nulla in nisi incididunt irure. Lorem fugiat exercitation duis do duis nostrud veniam cillum adipisicing cillum adipisicing labore dolor mollit. Eiusmod reprehenderit nulla eiusmod labore aliqua est aliqua duis dolor aute.</P>
+                <figure class="gallery__item gallery__item--1">
+                    <a href="https://uot-project1-group07.github.io/project1-group07/">
+                            <img src="./assets/images/compdiv.jpg" class="gallery__img" alt="Computer and Html">
+                            <figcaption>Development</br>HTML CSS</figcaption>                 
+                        </a>
+                        </figure>
+
+                    <figure class="gallery__item gallery__item--2">
+                        <a href="#">
+                            <img src="./assets/images/image-1.png" alt="box with number 1"/>
+                            <figcaption>1 asdf</br>Mern Stack</figcaption>
+                        </a>
+                    </figure>
+
+                    <figure class="gallery__item gallery__item--3">
+                        <a href="https://cesarocampos.github.io/Optimal_TechMedia/">
+                            <img src="./assets/images/image-2.png" alt="box with number 2"/>
+                            <figcaption>Optimal_TechMedia</br>HTML CSS</figcaption>
+                        </a>
+                    </figure>
+
+                    <figure class="gallery__item gallery__item--4">
+                        <a href="#">
+                            <img src="./assets/images/image-3.png" alt="box with number 3"/>
+                            <figcaption>Website 4</br>Mern Stack</figcaption>
+                        </a>
+                    </figure>
+
+                    <figure class="gallery__item gallery__item--5">
+                        <a href="#">
+                            <img src="./assets/images/image-4.png" alt="box with number 4"/>
+                            <figcaption>Website 5</br>HTML Stack</figcaption>
+                        </a>
+                    </figure>                 
+                    </div>
+                </div>
+            </div>
             </section>
-
-            <section id="work"> 
-            <h3>Work</h3>
-                <img src="./assets/images/compdiv.jpg" alt= "Computer and html tags picture">
-                <!--<a href= "https://placeholder.com" class= "workImg"><img src="https://via.placeholder.com/200"></a>-->
             </section>
-            <h3>Contact Me</h3>
-        </main class="content">    
+            <h3 class="sidebordernames">Contact Me</h3>
+        </main>   
+
+            <!--contact info/footer-->
         <footer id="contact_me" class="footer">
-            
-            <p>555.555.5555</p>
-            <p> lernantino@website.com </p>
-            <p>GitHub</p>
-            <p>Twitter</P>
-            <p>Spotify</p>
-            <p> &copy; Campos Productions, Inc. </p>
+            <section class="flex-row"></section>
+                <div class="step-info">
+                    <div class="vl-border3"></div>
+                    <div class="contactInfo">
+                    <ul> <!--List item elements-->
+                        <li><a href="#number">832-630-6701</a></li>
+                        <li><a href="#website.com">cc@website.com</a></li>
+                        <li><a href="#github">GitHub</a></li>
+                        <li><a href="#twitter">Twitter</a></li>
+                        <li><a href="#spotify">Spotify</a></li>                    
+                    </ul>
+            </div>
         </footer>
     </body>
 </html>
