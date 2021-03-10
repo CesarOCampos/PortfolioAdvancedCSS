@@ -234,22 +234,18 @@ figcaption {
     flex: 2 5%;
 }
 
-.contactInfo {
-    flex: 2 5%;
-}
-
 .contactInfo ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: normal;
+    align-items: left;
     list-style: none;
     margin-left: 30px;
-    width: 80%;
+    width: 100%;
 }
 
 .contactInfo ul li a {
-    margin: 0 30px;
+    margin: 0 10px;
     font-size: 18px;
     color: var(--mainColor);
     text-decoration: none;
