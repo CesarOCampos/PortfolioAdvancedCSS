@@ -105,7 +105,7 @@ h2 {
     align-items: center;
 }
 
-.flex-row {
+.hrow {
     display: flex;
     justify-content: left;
 }
@@ -118,24 +118,24 @@ h2 {
     width: 50%;
 }
 
-.step-info {
+.sideinfo {
     flex: 2 20%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
 
-.vl-border1 {
+.aboutBorder {
     border-right: 3px solid #39a6b2;
-    height: 150px;
-    flex: 2 1%;
+    height: 250px;
+    flex: 2 5%;
 }
 
-.step-text {
+.sidetext {
     flex: 25;
 }
 
-.step-text p {
+.sidetext p {
     color: var(--mainColor);
     font-size: 15px;
     text-align: left;
@@ -146,23 +146,19 @@ h2 {
 
 .workborder {
     border-right: 3px solid #39a6b2;
-    height: 450px;
+    height: 250px;
     flex: 2 5%;
-}
-
-.container {
-    flex: 80;
 }
 
 .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 15px;
+    margin-left: 30px;
     width: 80%;
 }
 
-.gallery {
+.grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 10vw);
@@ -174,7 +170,7 @@ h2 {
     position: relative;
 }
 
-.gallery__img {
+.boxImg {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -188,7 +184,7 @@ figcaption {
     font-size: 12px;
     font-style: bolder;
     font-weight: bold;
-    color: rgb(22, 44, 44);
+    color: rgb(36, 78, 78);
     border: solid 1px var(--mainColor);
     background-color: rgb(147, 226, 231);
 }
@@ -234,12 +230,12 @@ figcaption {
 
 .contactBorder {
     border-right: 3px solid #39a6b2;
-    height: 100px;
+    height: 250px;
     flex: 2 5%;
 }
 
 .contactInfo {
-    flex: 150;
+    flex: 2 5%;
 }
 
 .contactInfo ul {
@@ -248,8 +244,8 @@ figcaption {
     justify-content: space-between;
     align-items: left;
     list-style: none;
-    margin-left: 15px;
-    width: 100%;
+    margin-left: 30px;
+    width: 80%;
 }
 
 .contactInfo ul li a {
@@ -264,7 +260,7 @@ figcaption {
 
 /*Code for media query*/
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 992px) {
     header {
         padding-bottom: 10px;
         justify-content: center;
@@ -287,46 +283,39 @@ figcaption {
     .subtitle {
         background-size: cover;
     }
-    .image2 {
-        height: 100px;
-        width: 100px;
-    }
     .subtitle h2 {
         font-size: 10px;
         margin-top: 350px;
     }
-    .step-text p {
-        width: 85%;
+    .sidetext p {
+        width: 80%;
     }
-    .section-title {
+    .panel {
         width: 100%;
         text-align: right;
         font-weight: bold;
     }
-    .vl-border1 {
+    .aboutBorder {
         height: 350px;
     }
-    .vl-border2 {
+    .workborder {
         height: 280px;
     }
     .container {
         width: 100%;
     }
-    .contact-info ul {
+    .contactInfo ul {
         width: 100%;
         justify-content: left;
         flex-direction: column;
     }
-    .contact-info ul li a {
+    .contactInfo ul li a {
         font-size: 18px;
         line-height: 2;
         font-weight: bold;
     }
-    .vl-border3 {
+    .contactInfo {
         height: 180px;
-    }
-    .image2 {
-        top: 200px;
     }
     figcaption {
         margin-left: 5px;
