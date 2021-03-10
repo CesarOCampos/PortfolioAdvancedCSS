@@ -242,7 +242,7 @@ figcaption {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: left;
+    align-items: normal;
     list-style: none;
     margin-left: 30px;
     width: 80%;
